@@ -1,0 +1,3 @@
+# Operator Overloading
+
+Operator overloading in Python is the ability to change the behavior of operators for user-defined data types. This is done by defining special methods for the operators in question. For example, the + operator can be redefined for a user-defined class to perform some specific operation. The special method that is used to overload the + operator is `__add__()`. Similarly, other operators like -, \*, /, //, %, \*\*, <, >, ==, != etc. can be overloaded using special methods like `__sub__(), __mul__(), __truediv__(), __floordiv__(), __mod__(), __pow__(), __lt__(), __gt__(), __eq__(), __ne__()` respectively.
